@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45BFC1351955779700BD894D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BFC1341955779700BD894D /* Foundation.framework */; };
+		45BFC1371955779700BD894D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BFC1361955779700BD894D /* CoreGraphics.framework */; };
+		45BFC1391955779700BD894D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BFC1381955779700BD894D /* UIKit.framework */; };
+		45BFC13F1955779700BD894D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45BFC13D1955779700BD894D /* InfoPlist.strings */; };
+		45BFC1411955779700BD894D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC1401955779700BD894D /* main.m */; };
+		45BFC1451955779700BD894D /* CHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC1441955779700BD894D /* CHAppDelegate.m */; };
+		45BFC1481955779700BD894D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFC1461955779700BD894D /* Main.storyboard */; };
+		45BFC14D1955779700BD894D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BFC14C1955779700BD894D /* Images.xcassets */; };
+		45BFC1541955779700BD894D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BFC1531955779700BD894D /* XCTest.framework */; };
+		45BFC1551955779700BD894D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BFC1341955779700BD894D /* Foundation.framework */; };
+		45BFC1561955779700BD894D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45BFC1381955779700BD894D /* UIKit.framework */; };
+		45BFC15E1955779700BD894D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45BFC15C1955779700BD894D /* InfoPlist.strings */; };
+		45BFC1601955779700BD894D /* CHPaperMenuControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC15F1955779700BD894D /* CHPaperMenuControllerTests.m */; };
+		45BFC17119557BD700BD894D /* CHPaperMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC16A19557BD700BD894D /* CHPaperMenuController.m */; };
+		45BFC17219557BD700BD894D /* CHPaperMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC16A19557BD700BD894D /* CHPaperMenuController.m */; };
+		45BFC17319557BD700BD894D /* CHFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC16C19557BD700BD894D /* CHFrontViewController.m */; };
+		45BFC17419557BD700BD894D /* CHFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC16C19557BD700BD894D /* CHFrontViewController.m */; };
+		45BFC17519557BD700BD894D /* CHBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC16E19557BD700BD894D /* CHBackViewController.m */; };
+		45BFC17619557BD700BD894D /* CHBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC16E19557BD700BD894D /* CHBackViewController.m */; };
+		45BFC17719557BD700BD894D /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC17019557BD700BD894D /* PaperButton.m */; };
+		45BFC17819557BD700BD894D /* PaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BFC17019557BD700BD894D /* PaperButton.m */; };
+		C5A6EAC3248343AA9BC560A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC2C2C57D0E47959568CAC5 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45BFC1571955779700BD894D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BFC1291955779700BD894D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BFC1301955779700BD894D;
+			remoteInfo = CHPaperMenuController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45BFC1311955779700BD894D /* CHPaperMenuController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHPaperMenuController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFC1341955779700BD894D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45BFC1361955779700BD894D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45BFC1381955779700BD894D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45BFC13C1955779700BD894D /* CHPaperMenuController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHPaperMenuController-Info.plist"; sourceTree = "<group>"; };
+		45BFC13E1955779700BD894D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45BFC1401955779700BD894D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45BFC1421955779700BD894D /* CHPaperMenuController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CHPaperMenuController-Prefix.pch"; sourceTree = "<group>"; };
+		45BFC1431955779700BD894D /* CHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHAppDelegate.h; sourceTree = "<group>"; };
+		45BFC1441955779700BD894D /* CHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CHAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		45BFC1471955779700BD894D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45BFC14C1955779700BD894D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45BFC1521955779700BD894D /* CHPaperMenuControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHPaperMenuControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BFC1531955779700BD894D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		45BFC15B1955779700BD894D /* CHPaperMenuControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHPaperMenuControllerTests-Info.plist"; sourceTree = "<group>"; };
+		45BFC15D1955779700BD894D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45BFC15F1955779700BD894D /* CHPaperMenuControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHPaperMenuControllerTests.m; sourceTree = "<group>"; };
+		45BFC16919557BD700BD894D /* CHPaperMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CHPaperMenuController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		45BFC16A19557BD700BD894D /* CHPaperMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CHPaperMenuController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		45BFC16B19557BD700BD894D /* CHFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CHFrontViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		45BFC16C19557BD700BD894D /* CHFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CHFrontViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		45BFC16D19557BD700BD894D /* CHBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CHBackViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		45BFC16E19557BD700BD894D /* CHBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CHBackViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		45BFC16F19557BD700BD894D /* PaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperButton.h; sourceTree = "<group>"; };
+		45BFC17019557BD700BD894D /* PaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperButton.m; sourceTree = "<group>"; };
+		7DC2C2C57D0E47959568CAC5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17ABDA9588D4A79B2AA7E48 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BFC12E1955779700BD894D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFC1371955779700BD894D /* CoreGraphics.framework in Frameworks */,
+				45BFC1391955779700BD894D /* UIKit.framework in Frameworks */,
+				45BFC1351955779700BD894D /* Foundation.framework in Frameworks */,
+				C5A6EAC3248343AA9BC560A2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFC14F1955779700BD894D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFC1541955779700BD894D /* XCTest.framework in Frameworks */,
+				45BFC1561955779700BD894D /* UIKit.framework in Frameworks */,
+				45BFC1551955779700BD894D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		458D523E1955809600064A84 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC16F19557BD700BD894D /* PaperButton.h */,
+				45BFC17019557BD700BD894D /* PaperButton.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		458D523F195580A500064A84 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC1461955779700BD894D /* Main.storyboard */,
+				45BFC16919557BD700BD894D /* CHPaperMenuController.h */,
+				45BFC16A19557BD700BD894D /* CHPaperMenuController.m */,
+				45BFC16B19557BD700BD894D /* CHFrontViewController.h */,
+				45BFC16C19557BD700BD894D /* CHFrontViewController.m */,
+				45BFC16D19557BD700BD894D /* CHBackViewController.h */,
+				45BFC16E19557BD700BD894D /* CHBackViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		45BFC1281955779700BD894D = {
+			isa = PBXGroup;
+			children = (
+				45BFC13A1955779700BD894D /* CHPaperMenuController */,
+				45BFC1591955779700BD894D /* CHPaperMenuControllerTests */,
+				45BFC1331955779700BD894D /* Frameworks */,
+				45BFC1321955779700BD894D /* Products */,
+				A17ABDA9588D4A79B2AA7E48 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		45BFC1321955779700BD894D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC1311955779700BD894D /* CHPaperMenuController.app */,
+				45BFC1521955779700BD894D /* CHPaperMenuControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BFC1331955779700BD894D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC1341955779700BD894D /* Foundation.framework */,
+				45BFC1361955779700BD894D /* CoreGraphics.framework */,
+				45BFC1381955779700BD894D /* UIKit.framework */,
+				45BFC1531955779700BD894D /* XCTest.framework */,
+				7DC2C2C57D0E47959568CAC5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45BFC13A1955779700BD894D /* CHPaperMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC1431955779700BD894D /* CHAppDelegate.h */,
+				45BFC1441955779700BD894D /* CHAppDelegate.m */,
+				458D523F195580A500064A84 /* ViewControllers */,
+				458D523E1955809600064A84 /* Vendor */,
+				45BFC14C1955779700BD894D /* Images.xcassets */,
+				45BFC13B1955779700BD894D /* Supporting Files */,
+			);
+			path = CHPaperMenuController;
+			sourceTree = "<group>";
+		};
+		45BFC13B1955779700BD894D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC13C1955779700BD894D /* CHPaperMenuController-Info.plist */,
+				45BFC13D1955779700BD894D /* InfoPlist.strings */,
+				45BFC1401955779700BD894D /* main.m */,
+				45BFC1421955779700BD894D /* CHPaperMenuController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45BFC1591955779700BD894D /* CHPaperMenuControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC15F1955779700BD894D /* CHPaperMenuControllerTests.m */,
+				45BFC15A1955779700BD894D /* Supporting Files */,
+			);
+			path = CHPaperMenuControllerTests;
+			sourceTree = "<group>";
+		};
+		45BFC15A1955779700BD894D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45BFC15B1955779700BD894D /* CHPaperMenuControllerTests-Info.plist */,
+				45BFC15C1955779700BD894D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BFC1301955779700BD894D /* CHPaperMenuController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFC1631955779700BD894D /* Build configuration list for PBXNativeTarget "CHPaperMenuController" */;
+			buildPhases = (
+				A8E6FB9EE49B428C9A9B39AC /* Check Pods Manifest.lock */,
+				45BFC12D1955779700BD894D /* Sources */,
+				45BFC12E1955779700BD894D /* Frameworks */,
+				45BFC12F1955779700BD894D /* Resources */,
+				9A907B2233CB408A8F7B38EF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHPaperMenuController;
+			productName = CHPaperMenuController;
+			productReference = 45BFC1311955779700BD894D /* CHPaperMenuController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45BFC1511955779700BD894D /* CHPaperMenuControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BFC1661955779700BD894D /* Build configuration list for PBXNativeTarget "CHPaperMenuControllerTests" */;
+			buildPhases = (
+				45BFC14E1955779700BD894D /* Sources */,
+				45BFC14F1955779700BD894D /* Frameworks */,
+				45BFC1501955779700BD894D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BFC1581955779700BD894D /* PBXTargetDependency */,
+			);
+			name = CHPaperMenuControllerTests;
+			productName = CHPaperMenuControllerTests;
+			productReference = 45BFC1521955779700BD894D /* CHPaperMenuControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BFC1291955779700BD894D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Christian Hatch";
+				TargetAttributes = {
+					45BFC1511955779700BD894D = {
+						TestTargetID = 45BFC1301955779700BD894D;
+					};
+				};
+			};
+			buildConfigurationList = 45BFC12C1955779700BD894D /* Build configuration list for PBXProject "CHPaperMenuController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BFC1281955779700BD894D;
+			productRefGroup = 45BFC1321955779700BD894D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BFC1301955779700BD894D /* CHPaperMenuController */,
+				45BFC1511955779700BD894D /* CHPaperMenuControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BFC12F1955779700BD894D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFC14D1955779700BD894D /* Images.xcassets in Resources */,
+				45BFC13F1955779700BD894D /* InfoPlist.strings in Resources */,
+				45BFC1481955779700BD894D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFC1501955779700BD894D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFC15E1955779700BD894D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A907B2233CB408A8F7B38EF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E6FB9EE49B428C9A9B39AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BFC12D1955779700BD894D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFC17719557BD700BD894D /* PaperButton.m in Sources */,
+				45BFC17519557BD700BD894D /* CHBackViewController.m in Sources */,
+				45BFC1411955779700BD894D /* main.m in Sources */,
+				45BFC17119557BD700BD894D /* CHPaperMenuController.m in Sources */,
+				45BFC1451955779700BD894D /* CHAppDelegate.m in Sources */,
+				45BFC17319557BD700BD894D /* CHFrontViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BFC14E1955779700BD894D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BFC17619557BD700BD894D /* CHBackViewController.m in Sources */,
+				45BFC1601955779700BD894D /* CHPaperMenuControllerTests.m in Sources */,
+				45BFC17419557BD700BD894D /* CHFrontViewController.m in Sources */,
+				45BFC17219557BD700BD894D /* CHPaperMenuController.m in Sources */,
+				45BFC17819557BD700BD894D /* PaperButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45BFC1581955779700BD894D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BFC1301955779700BD894D /* CHPaperMenuController */;
+			targetProxy = 45BFC1571955779700BD894D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45BFC13D1955779700BD894D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BFC13E1955779700BD894D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45BFC1461955779700BD894D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BFC1471955779700BD894D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45BFC15C1955779700BD894D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BFC15D1955779700BD894D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45BFC1611955779700BD894D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45BFC1621955779700BD894D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BFC1641955779700BD894D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17ABDA9588D4A79B2AA7E48 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHPaperMenuController/CHPaperMenuController-Prefix.pch";
+				INFOPLIST_FILE = "CHPaperMenuController/CHPaperMenuController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45BFC1651955779700BD894D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17ABDA9588D4A79B2AA7E48 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHPaperMenuController/CHPaperMenuController-Prefix.pch";
+				INFOPLIST_FILE = "CHPaperMenuController/CHPaperMenuController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		45BFC1671955779700BD894D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CHPaperMenuController.app/CHPaperMenuController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHPaperMenuController/CHPaperMenuController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CHPaperMenuControllerTests/CHPaperMenuControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		45BFC1681955779700BD894D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CHPaperMenuController.app/CHPaperMenuController";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CHPaperMenuController/CHPaperMenuController-Prefix.pch";
+				INFOPLIST_FILE = "CHPaperMenuControllerTests/CHPaperMenuControllerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BFC12C1955779700BD894D /* Build configuration list for PBXProject "CHPaperMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFC1611955779700BD894D /* Debug */,
+				45BFC1621955779700BD894D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFC1631955779700BD894D /* Build configuration list for PBXNativeTarget "CHPaperMenuController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFC1641955779700BD894D /* Debug */,
+				45BFC1651955779700BD894D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BFC1661955779700BD894D /* Build configuration list for PBXNativeTarget "CHPaperMenuControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BFC1671955779700BD894D /* Debug */,
+				45BFC1681955779700BD894D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45BFC1291955779700BD894D /* Project object */;
+}
