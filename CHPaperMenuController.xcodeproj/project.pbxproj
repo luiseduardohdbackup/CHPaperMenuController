@@ -105,18 +105,18 @@
 			name = Vendor;
 			sourceTree = "<group>";
 		};
-		458D523F195580A500064A84 /* ViewControllers */ = {
+		458D523F195580A500064A84 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				45BFC1431955779700BD894D /* CHAppDelegate.h */,
+				45BFC1441955779700BD894D /* CHAppDelegate.m */,
 				45BFC1461955779700BD894D /* Main.storyboard */,
-				45BFC16919557BD700BD894D /* CHPaperMenuController.h */,
-				45BFC16A19557BD700BD894D /* CHPaperMenuController.m */,
 				45BFC16B19557BD700BD894D /* CHFrontViewController.h */,
 				45BFC16C19557BD700BD894D /* CHFrontViewController.m */,
 				45BFC16D19557BD700BD894D /* CHBackViewController.h */,
 				45BFC16E19557BD700BD894D /* CHBackViewController.m */,
 			);
-			name = ViewControllers;
+			name = Example;
 			sourceTree = "<group>";
 		};
 		45BFC1281955779700BD894D = {
@@ -154,10 +154,10 @@
 		45BFC13A1955779700BD894D /* CHPaperMenuController */ = {
 			isa = PBXGroup;
 			children = (
-				45BFC1431955779700BD894D /* CHAppDelegate.h */,
-				45BFC1441955779700BD894D /* CHAppDelegate.m */,
-				458D523F195580A500064A84 /* ViewControllers */,
 				458D523E1955809600064A84 /* Vendor */,
+				45BFC16919557BD700BD894D /* CHPaperMenuController.h */,
+				45BFC16A19557BD700BD894D /* CHPaperMenuController.m */,
+				458D523F195580A500064A84 /* Example */,
 				45BFC14C1955779700BD894D /* Images.xcassets */,
 				45BFC13B1955779700BD894D /* Supporting Files */,
 			);

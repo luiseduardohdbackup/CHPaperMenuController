@@ -8,7 +8,11 @@
 
 #import "CHAppDelegate.h"
 #import "CHPaperMenuController.h"
+
 #import "CHBackViewController.h"
+#import <Tweaks/FBTweakShakeWindow.h>
+
+
 
 @interface CHAppDelegate ()
 
@@ -20,21 +24,25 @@
 
 @end
 
+
+
 @implementation CHAppDelegate
 
 #pragma mark - Overrides
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    CHPaperMenuController *apm = [CHPaperMenuController appMenuControllerWithFrontWindow:self.frontWindow];
+    CHPaperMenuController *apm = [CHPaperMenuController paperMenuControllerWithFrontWindow:self.frontWindow
+                                                                                backWindow:self.backWindow];
     self.frontWindow.rootViewController = apm;
     
-    CHBackViewController *back = [CHBackViewController backViewController];
-    self.backWindow.rootViewController = back;
+    CHBackViewController *inbox = [CHBackViewController backViewController];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:inbox];
+    self.backWindow.rootViewController = nav;
     
     [self.backWindow makeKeyAndVisible];
     [self.frontWindow makeKeyAndVisible];
-    
+
     return YES;
 }
 
@@ -43,12 +51,18 @@
     return UIStatusBarStyleLightContent;
 }
 
+
 #pragma mark - Getters
 
 - (UIWindow *)frontWindow
 {
-    if (!_frontWindow) {
-        _frontWindow =  [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    if (!_frontWindow)
+    {
+#ifdef DEBUG
+        _frontWindow = [[FBTweakShakeWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+#else
+        _frontWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+#endif
         _frontWindow.windowLevel = UIWindowLevelStatusBar;
     }
     return _frontWindow;
@@ -56,11 +70,22 @@
 
 - (UIWindow *)backWindow
 {
-    if (!_backWindow) {
+    if (!_backWindow)
+    {
+//#ifdef DEBUG
+//        _backWindow = [[FBTweakShakeWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//#else
         _backWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//#endif
     }
     return _backWindow;
 }
+
+- (CHPaperMenuController *)paperMenuController
+{
+    return (CHPaperMenuController *)self.frontWindow.rootViewController;
+}
+
 
 
 #pragma mark - UIApplication Delegate Callbacks

@@ -8,7 +8,7 @@
 
 #import "CHPaperMenuController.h"
 
-@interface CHFrontViewController : UIViewController <CHPaperMenuControllerFrontPageProtocol>
+@interface CHFrontViewController : UIViewController <CHPaperMenuControllerViewControllerProtocol>
 
 
 @end

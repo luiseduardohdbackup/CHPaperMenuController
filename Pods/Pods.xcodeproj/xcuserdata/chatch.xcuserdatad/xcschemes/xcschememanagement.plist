@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-Tweaks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>12A7CB9FAE7741C894C20652</key>
+		<key>2BBEF15ED26D4A7D8B9A141A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>75F8D8F05F83465B961C459A</key>
+		<key>563C6795C7F84BB3AA77BBB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CBA0BED9FD94880B18B9E0E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
